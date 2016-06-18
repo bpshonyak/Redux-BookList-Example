@@ -20,7 +20,7 @@ class BookList extends Component {
       <ul className="list-group col-sm-4">
         {this.renderList()}
       </ul>
-    )
+    );
   }
 }
 
@@ -29,8 +29,8 @@ function mapStateToProps(state) {
   // Whatever is returned will show up as props
   // inside the BookList class.
   return {
-    books: state.books
-  }
+    books: state.books,
+  };
 }
 
 // Exprot redux container
