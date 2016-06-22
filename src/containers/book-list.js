@@ -33,7 +33,7 @@ function mapStateToProps(state) {
   // Whatever is returned will show up as props
   // inside the BookList class.
   return {
-    books: state.books,
+    books: state.books
   };
 }
 
