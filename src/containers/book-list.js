@@ -10,7 +10,9 @@ class BookList extends Component {
       return (
         <li
           key={book.title}
-          className="list-group-item">
+          className="list-group-item"
+          onClick={ () => this.props.selectBook(book)}
+          >
           {book.title}
         </li>
       );
