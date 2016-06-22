@@ -33,8 +33,5 @@
     "react-redux": "^4.0.0",
     "react-router": "^2.0.1",
     "redux": "^3.0.4"
-  },
-  "jscsConfig": {
-    "requireShorthandArrowFunctions": false
   }
 }
